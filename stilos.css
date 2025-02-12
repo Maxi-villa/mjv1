@@ -10,7 +10,7 @@
 
   /* alineado a la izquierda */
   form {
-    background-color: #8d8383;
+    background-color: #404040;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -51,5 +51,5 @@
   }
 
   .form-label {
-    color: #000000; /* Cambia el color a azul oscuro */
+    color: #ffffff; /* Cambia el color a azul oscuro */
   }
