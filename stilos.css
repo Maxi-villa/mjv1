@@ -1,6 +1,6 @@
  /* Fondo */
  body {
-    background-color: #f4f7fc;
+    background-color: #404040 !important; 
     margin: 0;
     display: flex;
     justify-content: flex-start; /* Alinea el contenido a la izquierda */
@@ -10,7 +10,7 @@
 
   /* alineado a la izquierda */
   form {
-    background-color: white;
+    background-color: #8d8383;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -48,4 +48,8 @@
   .form-text {
     color: #2d485f;
     font-size: 0.9rem;
+  }
+
+  .form-label {
+    color: #000000; /* Cambia el color a azul oscuro */
   }
