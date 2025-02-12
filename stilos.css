@@ -1,6 +1,6 @@
  /* Fondo */
  body {
-    background-color: #202020 !important; 
+    background-color: #353535 !important; 
     margin: 0;
     display: flex;
     justify-content: flex-start; /* Alinea el contenido a la izquierda */
@@ -10,7 +10,7 @@
 
   /* alineado a la izquierda */
   form {
-    background-color: #202020;
+    background-color: #353535;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
