@@ -1,55 +1,66 @@
-  /* Fondo */
- body {
-    background-color: #353535 !important; 
+ /* Fondo suave para el cuerpo de la página */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
     margin: 0;
-    display: flex;
-    justify-content: flex-start; /* Alinea el contenido a la izquierda */
-    align-items: flex-start; /* Alinea el contenido verticalmente al principio */
-    min-height: 100vh; /* Asegura que el body ocupe toda la altura */
+    padding: 0;
   }
-
-  /* alineado a la izquierda */
-  form {
-    background-color: #303030;
-    padding: 30px;
+  
+  /* Fondo y sombra para las tarjetas */
+  .card {
+    background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px;
-    margin-top: 50px;
-    /* Sin margen izquierdo específico */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
   }
-
-  /* Botón de ingreso */
-  .btn-primary {
-    background-color: #5c6bc0;
-    border-color: #5c6bc0;
-    transition: background-color 0.3s;
+  
+  /* Sombra en la tarjeta de Pokémon */
+  #pokemon-info {
+    background-color: #e9ecef;
+    border-color: #ccc;
   }
-
-  .btn-primary:hover {
-    background-color: #3f51b5;
-    border-color: #3f51b5;
+  
+  /* Ajuste de fuentes */
+  h1, h2 {
+    font-weight: bold;
   }
-
-  /* Cambios en el input */
-  .form-control {
+  
+  /* Estilo de botones y selectores */
+  .form-select {
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+  
+  /* Para que las imágenes del Pokémon se ajusten bien */
+  img {
     border-radius: 8px;
-    border: 1px solid #ddd;
-    transition: border 0.3s;
   }
-
-  .form-control:focus {
-    border-color: #5c6bc0;
-    box-shadow: 0 0 0 0.2rem rgba(92, 107, 192, 0.25);
+  
+  /* Márgenes automáticos para centrar contenido en pantalla */
+  .container {
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-
-  /* Estilo para el texto de ayuda */
-  .form-text {
-    color: #2d485f;
-    font-size: 0.9rem;
+  
+  /* Espaciado y márgenes adicionales para el contenido */
+  .card-body {
+    padding: 2rem;
   }
-
+  
+  /* Alineación a la izquierda */
+  .row {
+    display: flex;
+    justify-content: flex-start; /* Alinea todo a la izquierda */
+  }
+  
+  /* Evitar que se sobrepongan en pantallas pequeñas */
+  @media (max-width: 768px) {
+    .col-md-6 {
+      width: 100%; /* Hacer que ocupe todo el ancho en pantallas pequeñas */
+    }
+  }
   .form-label {
     color: #ffffff; /* Cambia el color a azul oscuro */
   }
