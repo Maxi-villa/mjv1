@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     color: floralwhite;
+
   }
   
   /* Fondo y sombra para las tarjetas */
@@ -12,7 +13,7 @@ body {
     background-color: #2b2b2b;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 10px 0;
+    margin: 50px 0;
   }
   
   /* Sombra en la tarjeta de Pokémon */
@@ -38,8 +39,9 @@ body {
   /* Ajuste de fuentes */
   h1, h2 {
     font-weight: bold;
+    color: black;
   }
-  
+
   /* Estilo de botones y selectores */
   .form-select {
     border-radius: 5px;
@@ -54,9 +56,10 @@ body {
   
   /* Márgenes automáticos para centrar contenido en pantalla */
   .container {
-    margin-top: 50px;
+    margin-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    background-color: #2b2b2b;
   }
   
   /* Espaciado y márgenes adicionales para el contenido */
@@ -68,6 +71,13 @@ body {
   .row {
     display: flex;
     justify-content: flex-start; /* Alinea todo a la izquierda */
+  }
+  
+  /* Evitar que se sobrepongan en pantallas pequeñas */
+  @media (max-width: 768px) {
+    .col-md-6 {
+      width: 100%; /* Hacer que ocupe todo el ancho en pantallas pequeñas */
+    }
   }
   
   /* Evitar que se sobrepongan en pantallas pequeñas */
