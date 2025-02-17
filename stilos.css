@@ -1,9 +1,10 @@
- /* Fondo suave para el cuerpo de la página */
+/* Fondo suave para el cuerpo de la página */
 body {
-    background-color: #f8f9fa;
+    background-color: #2b2b2b !important;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    color: floralwhite;
   }
   
   /* Fondo y sombra para las tarjetas */
@@ -16,10 +17,24 @@ body {
   
   /* Sombra en la tarjeta de Pokémon */
   #pokemon-info {
-    background-color: #e9ecef;
+    background-color: #2b2b2b;
     border-color: #ccc;
   }
   
+  /* color letra tarjetas*/
+.card-body {
+    padding: 2rem;
+    color: #faf4f4;
+}   
+
+/* color de la tarjeta */
+.form-select {
+   border-radius: 5px;
+   padding: 0.75rem;
+   font-size: 1rem;
+   color: #2b2b2b;
+}
+
   /* Ajuste de fuentes */
   h1, h2 {
     font-weight: bold;
@@ -42,6 +57,7 @@ body {
     margin-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
+    background-color: #2b2b2b;
   }
   
   /* Espaciado y márgenes adicionales para el contenido */
@@ -60,19 +76,4 @@ body {
     .col-md-6 {
       width: 100%; /* Hacer que ocupe todo el ancho en pantallas pequeñas */
     }
-  }
-  .form-label {
-    color: #ffffff; /* Cambia el color a azul oscuro */
-  }
-
-  .d-flex {
-    display: flex;
-    align-items: center;
-    flex-wrap:wrap ;
-  }
-
-  .small-image {
-    width: 40%;
-    height: auto;
-    margin-left: 40px;
   }
